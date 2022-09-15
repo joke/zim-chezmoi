@@ -6,5 +6,5 @@ fi
 
 local compfile=${0:h}/functions/_chezmoi
 if [[ ! -e $compfile || $compfile -ot $command ]]; then
-  $command completions zsh >| $compfile
+  $command completion zsh >| $compfile
 fi
