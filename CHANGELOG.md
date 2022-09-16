@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://github.com/joke/zim-chezmoi/compare/v1.0.0...v1.0.1) (2022-09-16)
+
+
+### Bug Fixes
+
+* asdf handling ([fc33292](https://github.com/joke/zim-chezmoi/commit/fc3329240410de0bfff37b079ffba46dbc46eadc))
+
 ## 1.0.0 (2022-09-15)
 
 
