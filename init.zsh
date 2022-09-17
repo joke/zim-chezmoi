@@ -4,6 +4,8 @@
   [[ -z $command ]] && return 1
 
   local compfile=$1/functions/_chezmoi
-  [[ ! -e $compfile || $compfile -ot $command ]] && $command completion zsh >| $compfile
-
+  if [[ ! -e $compfile || $compfile -ot $command ]]; then
+    $command completion zsh >| $compfile
+    zimfw check-dumpfile
+  fi
 } ${0:h}
