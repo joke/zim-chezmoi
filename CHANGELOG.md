@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/joke/zim-chezmoi/compare/v1.0.1...v1.1.0) (2022-09-17)
+
+
+### Features
+
+* check dumpfile after completion update ([9737b5e](https://github.com/joke/zim-chezmoi/commit/9737b5e850b0c9a00cdbd02aceae1ba6aeed6782))
+
 ### [1.0.1](https://github.com/joke/zim-chezmoi/compare/v1.0.0...v1.0.1) (2022-09-16)
 
 
