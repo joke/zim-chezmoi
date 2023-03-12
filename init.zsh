@@ -6,6 +6,6 @@
   local compfile=$1/functions/_chezmoi
   if [[ ! -e $compfile || $compfile -ot $command ]]; then
     $command completion zsh >| $compfile
-    zimfw check-dumpfile
+    print -u2 -PR "* Detected a new version 'chezmoi'. May you need to restart your terminal for changes to take effect."
   fi
 } ${0:h}
