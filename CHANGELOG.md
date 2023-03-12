@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/joke/zim-chezmoi/compare/v1.1.1...v1.1.2) (2023-03-12)
+
+
+### Bug Fixes
+
+* new version detection message ([0180b09](https://github.com/joke/zim-chezmoi/commit/0180b094af9ff87b526b99634328700021920826))
+
 ## [1.1.1](https://github.com/joke/zim-chezmoi/compare/v1.1.0...v1.1.1) (2023-03-12)
 
 
