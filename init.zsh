@@ -6,6 +6,6 @@
   local compfile=$1/functions/_chezmoi
   if [[ ! -e $compfile || $compfile -ot $command ]]; then
     $command completion zsh >| $compfile
-    zimfw check-dumpfile
+    print -u2 -PR "* Detected a new version 'rtx'. Regenerated completions."
   fi
 } ${0:h}
